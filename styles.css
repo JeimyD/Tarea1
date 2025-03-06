@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section {
+    display: none;
+}
+
+body{
+    display: flex;
+    padding-top: 10vh;
+    padding-left: 10vw;
+}
+
+nav{
+    height: 80vh;
+    width: 10vw;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: 0.6s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li img{
+    opacity: 60%;
+}
+
+.inicio{
+    background-color: lightsalmon;
+    border: solid 2px rgb(112, 69, 52);
+    border-right: none;
+}
+
+.flores{
+    background-color: rgb(211, 149, 206);
+    border: solid 2px rgb(109, 79, 107);
+    border-right: none;
+}
+
+.ramos{
+    background-color: hotpink;
+    border: rgb(135, 56, 95) solid 2px;
+    border-right: none;
+}
+
+.semillas{
+    background-color: darkseagreen;
+    border: rgb(67, 90, 67) solid 2px;
+    border-right: none;
+}
+
+.aromas{
+    background-color: mediumpurple;
+    border: rgb(72, 55, 107) solid 2px;
+    border-right: none;
+}
+
+li:hover{
+    cursor: pointer;
+    width: 110%;
+}
+
+main{
+    height: 80vh;
+    width: 70vw;
+}
+
+.main{
+    background-color: lightsalmon;
+    border: solid 2px rgb(112, 69, 52);
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.titulo{
+    width: 50%;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.titulo h2{
+    font-weight: lighter;
+}
+
+.content{
+    width: 45%;
+}
+
+.content figure{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content p{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: larger;
+}
+
+.flowers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(211, 149, 206);
+    border: solid 2px rgb(109, 79, 107);
+}
+
+.flower{
+    height: 100%;
+    width: 33.3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flower h3{
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-bottom: 20px;
+}
+
+.flower p{
+    width: 70%;
+    font-size: larger;
+}
+
+.bouquet{
+    height: 100%;
+    width: 100%;
+    background-color: hotpink;
+    border: rgb(135, 56, 95) solid 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bouquet figure{
+    width: 45%;
+    padding-left: 5%;
+}
+
+.bouquet p{
+    height: 100%;
+    width: 55%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.seeds{
+    background-color: darkseagreen;
+    border: rgb(67, 90, 67) solid 2px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.seeds figure{
+    width: 45%;
+    padding-left: 5%;
+}
+
+.seeds p{
+    height: 100%;
+    width: 55%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.perfume{
+    background-color: mediumpurple;
+    border: rgb(72, 55, 107) solid 2px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfume figure{
+    width: 45%;
+    padding-right: 5%;
+}
+
+.perfume p{
+    height: 100%;
+    width: 55%;
+    padding-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
